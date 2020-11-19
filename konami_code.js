@@ -23,7 +23,7 @@ function init() {
     if (key === codes[index]) {
       index++;
       
-        if (index === codes.length){S
+        if (index === codes.length){
           alert("Hurray");
           index = 0;
         }
