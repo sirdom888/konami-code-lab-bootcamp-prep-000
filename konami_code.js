@@ -27,12 +27,12 @@ function init() {
           alert("Infinite Lives Granted");
           index = 0;
         }
-      else {
+      } else {
         index = 0;
       }
     
     }
     
-  });
+  );
 }
 init();
