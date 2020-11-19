@@ -23,8 +23,8 @@ function init() {
     if (key === codes[index]) {
       index++;
       
-        if (index === codes.length){
-          alert("Infinite Lives Granted");
+        if (index === codes.length){S
+          alert("Hurray");
           index = 0;
         }
       } else {
