@@ -22,6 +22,13 @@ function init() {
     if (key === codes[index]) {
       index++;
       
+        if (index === codes.length){
+          alert("Infinite Lives Granted");
+          index = 0;
+        }
+      else {
+        index = 0;
+      }
     
     }
     
